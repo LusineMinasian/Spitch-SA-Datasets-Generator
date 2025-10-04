@@ -1,0 +1,285 @@
+{
+  "C1": {
+    "cid": "1",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 0.0,
+          "end": 7.45,
+          "cid": "C1",
+          "text": "Guten Tag, Sie sprechen mit der MusterBank, mein Name ist Keller. Vielen Dank für Ihren Anruf. Wie kann ich Ihnen weiterhelfen?",
+          "denormalized": "Guten Tag, Sie sprechen mit der MusterBank, mein Name ist Keller. Vielen Dank für Ihren Anruf. Wie kann ich Ihnen weiterhelfen?",
+          "stype": "male"
+        },
+        {
+          "start": 17.3,
+          "end": 25.625,
+          "cid": "C1",
+          "text": "Verstanden. Damit wir das gemeinsam anschauen können: Nutzen Sie bereits die MusterBank-App oder loggen Sie sich über den Browser ein?",
+          "denormalized": "Verstanden. Damit wir das gemeinsam anschauen können: Nutzen Sie bereits die MusterBank-App oder loggen Sie sich über den Browser ein?",
+          "stype": "male"
+        },
+        {
+          "start": 28.625,
+          "end": 36.3,
+          "cid": "C1",
+          "text": "Sehr gut. Dann bitte öffnen Sie jetzt die App. Sie sehen dort das Feld für die Anmeldung mit Benutzername und Passwort, korrekt?",
+          "denormalized": "Sehr gut. Dann bitte öffnen Sie jetzt die App. Sie sehen dort das Feld für die Anmeldung mit Benutzername und Passwort, korrekt?",
+          "stype": "male"
+        },
+        {
+          "start": 37.138,
+          "end": 46.176,
+          "cid": "C1",
+          "text": "Prima. Geben Sie bitte Ihre Zugangsdaten ein. An dieser Stelle brauchen Sie mir nichts davon vorzulesen, das bleibt selbstverständlich vertraulich.",
+          "denormalized": "Prima. Geben Sie bitte Ihre Zugangsdaten ein. An dieser Stelle brauchen Sie mir nichts davon vorzulesen, das bleibt selbstverständlich vertraulich.",
+          "stype": "male"
+        },
+        {
+          "start": 48.001,
+          "end": 60.001,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        },
+        {
+          "start": 60.001,
+          "end": 66.539,
+          "cid": "C1",
+          "text": "Alles klar. Wurde Ihnen danach eine Aufforderung zur Bestätigung per SMS oder Push-Mitteilung angezeigt?",
+          "denormalized": "Alles klar. Wurde Ihnen danach eine Aufforderung zur Bestätigung per SMS oder Push-Mitteilung angezeigt?",
+          "stype": "male"
+        },
+        {
+          "start": 68.889,
+          "end": 75.464,
+          "cid": "C1",
+          "text": "Perfekt. Bitte bestätigen Sie diese Mitteilung. Sobald das erledigt ist, sollten Sie in Ihrem Hauptmenü landen.",
+          "denormalized": "Perfekt. Bitte bestätigen Sie diese Mitteilung. Sobald das erledigt ist, sollten Sie in Ihrem Hauptmenü landen.",
+          "stype": "male"
+        },
+        {
+          "start": 76.486,
+          "end": 83.686,
+          "cid": "C1",
+          "text": "Sehr schön. Oben auf der Startseite sehen Sie eine Übersicht mit „Konten“. Tippen Sie bitte dort auf Ihr Hauptkonto.",
+          "denormalized": "Sehr schön. Oben auf der Startseite sehen Sie eine Übersicht mit „Konten“. Tippen Sie bitte dort auf Ihr Hauptkonto.",
+          "stype": "male"
+        },
+        {
+          "start": 85.286,
+          "end": 100.286,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        },
+        {
+          "start": 100.286,
+          "end": 104.936,
+          "cid": "C1",
+          "text": "Nun sollte Ihnen der aktuelle Saldo angezeigt werden. Können Sie ihn sehen?",
+          "denormalized": "Nun sollte Ihnen der aktuelle Saldo angezeigt werden. Können Sie ihn sehen?",
+          "stype": "male"
+        },
+        {
+          "start": 110.548,
+          "end": 119.986,
+          "cid": "C1",
+          "text": "Gute Frage. Der angezeigte Saldo ist der verfügbare Kontostand, also bereits abzüglich vorgemerkter Buchungen. Damit haben Sie den aktuellen Überblick.",
+          "denormalized": "Gute Frage. Der angezeigte Saldo ist der verfügbare Kontostand, also bereits abzüglich vorgemerkter Buchungen. Damit haben Sie den aktuellen Überblick.",
+          "stype": "male"
+        },
+        {
+          "start": 121.586,
+          "end": 130.048,
+          "cid": "C1",
+          "text": "Wenn Sie möchten, können Sie auch auf „Umsätze“ tippen, um die letzten Bewegungen einzusehen. So sehen Sie sofort, ob etwas noch offen ist.",
+          "denormalized": "Wenn Sie möchten, können Sie auch auf „Umsätze“ tippen, um die letzten Bewegungen einzusehen. So sehen Sie sofort, ob etwas noch offen ist.",
+          "stype": "male"
+        },
+        {
+          "start": 131.426,
+          "end": 143.138,
+          "cid": "C1",
+          "text": "Super. Damit haben wir Ihr Anliegen geklärt. Kurz zur Zusammenfassung: Sie haben sich erfolgreich in der App angemeldet, den Kontostand eingesehen und wissen nun, dass der Saldo aktuell ist.",
+          "denormalized": "Super. Damit haben wir Ihr Anliegen geklärt. Kurz zur Zusammenfassung: Sie haben sich erfolgreich in der App angemeldet, den Kontostand eingesehen und wissen nun, dass der Saldo aktuell ist.",
+          "stype": "male"
+        },
+        {
+          "start": 144.1,
+          "end": 147.962,
+          "cid": "C1",
+          "text": "Gibt es sonst noch etwas, wobei ich Ihnen behilflich sein darf?",
+          "denormalized": "Gibt es sonst noch etwas, wobei ich Ihnen behilflich sein darf?",
+          "stype": "male"
+        },
+        {
+          "start": 150.762,
+          "end": 169.592,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        },
+        {
+          "start": 169.592,
+          "end": 175.204,
+          "cid": "C1",
+          "text": "Sehr gerne. Dann wünsche ich Ihnen einen angenehmen Tag. Auf Wiederhören bei der MusterBank.",
+          "denormalized": "Sehr gerne. Dann wünsche ich Ihnen einen angenehmen Tag. Auf Wiederhören bei der MusterBank.",
+          "stype": "male"
+        }
+      ]
+    },
+    "generator_path": "llm",
+    "language": "Deutsch",
+    "channel": "voice",
+    "date": "2025-09-26",
+    "weekday": "Freitag",
+    "time_of_day_bucket": "Morgen",
+    "agent_name": "Peter_Keller",
+    "agent_shift": "Spätschicht",
+    "customer_segment": "Standard",
+    "intent": "Online-Banking",
+    "scenario": "Kontostand abfragen",
+    "AWT": "180.87",
+    "Hold_time": "70.83",
+    "Transfers_count": "0",
+    "Silence_ratio": "9.03",
+    "Silence_total_seconds": "3.55",
+    "Interruptions_count": "2",
+    "FCR": "Ja",
+    "repeat_call_within_72h": "Nein",
+    "escalation": "Keine",
+    "complaint_category": "Gebühren",
+    "NPS_score": "8",
+    "sentiment_score": "0.59",
+    "product": "Karte",
+    "amount_bucket": "Keine",
+    "self_service_potential": "Hoch",
+    "automation_action_present": "Nein",
+    "automation_action_type": "Keine",
+    "Greeting": "Ja",
+    "Empathy": "Nein",
+    "Summary": "Ja",
+    "Farewell": "Ja",
+    "kb_article_used": "Nein",
+    "language_switch": "Nein",
+    "pii_disclosure_flag": "Nein",
+    "script_adherence": "93.1",
+    "ANI": "+4934701893202"
+  },
+  "C2": {
+    "cid": "2",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 7.45,
+          "end": 17.3,
+          "cid": "C2",
+          "text": "Hallo, hier ist ein Kunde aus Zürich. Ich möchte gern meinen Kontostand im Online-Banking überprüfen, aber ich bin mir unsicher, wie ich da am besten vorgehe.",
+          "denormalized": "Hallo, hier ist ein Kunde aus Zürich. Ich möchte gern meinen Kontostand im Online-Banking überprüfen, aber ich bin mir unsicher, wie ich da am besten vorgehe.",
+          "stype": "male"
+        },
+        {
+          "start": 25.625,
+          "end": 28.625,
+          "cid": "C2",
+          "text": "Ich benutze normalerweise die App auf meinem Smartphone.",
+          "denormalized": "Ich benutze normalerweise die App auf meinem Smartphone.",
+          "stype": "male"
+        },
+        {
+          "start": 36.3,
+          "end": 37.138,
+          "cid": "C2",
+          "text": "Ja, das sehe ich.",
+          "denormalized": "Ja, das sehe ich.",
+          "stype": "male"
+        },
+        {
+          "start": 46.176,
+          "end": 48.001,
+          "cid": "C2",
+          "text": "Okay, ich tippe das gerade ein.",
+          "denormalized": "Okay, ich tippe das gerade ein.",
+          "stype": "male"
+        },
+        {
+          "start": 66.539,
+          "end": 68.889,
+          "cid": "C2",
+          "text": "Ja, ich habe gerade eine Push-Nachricht bekommen.",
+          "denormalized": "Ja, ich habe gerade eine Push-Nachricht bekommen.",
+          "stype": "male"
+        },
+        {
+          "start": 75.464,
+          "end": 76.739,
+          "cid": "C2",
+          "text": "Ja, jetzt bin ich drin.",
+          "denormalized": "Ja, jetzt bin ich drin.",
+          "stype": "male"
+        },
+        {
+          "start": 83.686,
+          "end": 85.286,
+          "cid": "C2",
+          "text": "Einen Moment… ja, da steht es.",
+          "denormalized": "Einen Moment… ja, da steht es.",
+          "stype": "male"
+        },
+        {
+          "start": 104.936,
+          "end": 110.548,
+          "cid": "C2",
+          "text": "Ja, da steht ein Betrag. Aber ich wollte sicherstellen, dass das wirklich der aktuelle Stand ist.",
+          "denormalized": "Ja, da steht ein Betrag. Aber ich wollte sicherstellen, dass das wirklich der aktuelle Stand ist.",
+          "stype": "male"
+        },
+        {
+          "start": 119.986,
+          "end": 121.586,
+          "cid": "C2",
+          "text": "Alles klar, das beruhigt mich.",
+          "denormalized": "Alles klar, das beruhigt mich.",
+          "stype": "male"
+        },
+        {
+          "start": 130.048,
+          "end": 131.673,
+          "cid": "C2",
+          "text": "Ja, das ist hilfreich, danke.",
+          "denormalized": "Ja, das ist hilfreich, danke.",
+          "stype": "male"
+        },
+        {
+          "start": 143.138,
+          "end": 144.1,
+          "cid": "C2",
+          "text": "Genau, das passt.",
+          "denormalized": "Genau, das passt.",
+          "stype": "male"
+        },
+        {
+          "start": 147.962,
+          "end": 150.762,
+          "cid": "C2",
+          "text": "Nein, das war’s. Vielen Dank für die Unterstützung.",
+          "denormalized": "Nein, das war’s. Vielen Dank für die Unterstützung.",
+          "stype": "male"
+        },
+        {
+          "start": 175.204,
+          "end": 176.979,
+          "cid": "C2",
+          "text": "Danke, gleichfalls. Auf Wiederhören.",
+          "denormalized": "Danke, gleichfalls. Auf Wiederhören.",
+          "stype": "male"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "C1": {
+    "cid": "1",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 0.0,
+          "end": 6.812,
+          "cid": "C1",
+          "text": "Guten Tag, Sie sind mit der MusterBank Zürich verbunden. Mein Name ist Keller. Wie kann ich Ihnen heute helfen?",
+          "denormalized": "Guten Tag, Sie sind mit der MusterBank Zürich verbunden. Mein Name ist Keller. Wie kann ich Ihnen heute helfen?",
+          "stype": "female"
+        },
+        {
+          "start": 12.024,
+          "end": 19.962,
+          "cid": "C1",
+          "text": "Gerne. Damit ich Sie sicher identifizieren kann: könnten Sie mir bitte Ihre Kundennummer oder das vereinbarte Telefonpasswort nennen?",
+          "denormalized": "Gerne. Damit ich Sie sicher identifizieren kann: könnten Sie mir bitte Ihre Kundennummer oder das vereinbarte Telefonpasswort nennen?",
+          "stype": "female"
+        },
+        {
+          "start": 23.5,
+          "end": 32.45,
+          "cid": "C1",
+          "text": "Perfekt, danke. Ich bestätige, dass die Authentifizierung erfolgreich war. Gehen wir zuerst auf Ihre Hypothek ein oder lieber gleich zum Kontostand?",
+          "denormalized": "Perfekt, danke. Ich bestätige, dass die Authentifizierung erfolgreich war. Gehen wir zuerst auf Ihre Hypothek ein oder lieber gleich zum Kontostand?",
+          "stype": "female"
+        },
+        {
+          "start": 37.738,
+          "end": 47.876,
+          "cid": "C1",
+          "text": "Ich habe Ihre Hypothek gefunden. Die nächste Zins- und Amortisationsrate beträgt 642 Franken und wird am 30. dieses Monats vom Hauptkonto eingezogen.",
+          "denormalized": "Ich habe Ihre Hypothek gefunden. Die nächste Zins- und Amortisationsrate beträgt 642 Franken und wird am 30. dieses Monats vom Hauptkonto eingezogen.",
+          "stype": "female"
+        },
+        {
+          "start": 52.938,
+          "end": 59.076,
+          "cid": "C1",
+          "text": "Natürlich. Der offene Restbetrag Ihrer Hypothek liegt aktuell bei 187'000 Franken.",
+          "denormalized": "Natürlich. Der offene Restbetrag Ihrer Hypothek liegt aktuell bei 187'000 Franken.",
+          "stype": "female"
+        },
+        {
+          "start": 63.551,
+          "end": 68.376,
+          "cid": "C1",
+          "text": "Ihr Privatkonto weist aktuell ein Guthaben von 1’240 Franken aus.",
+          "denormalized": "Ihr Privatkonto weist aktuell ein Guthaben von 1’240 Franken aus.",
+          "stype": "female"
+        },
+        {
+          "start": 74.52,
+          "end": 81.132,
+          "cid": "C1",
+          "text": "Ja, ich sehe hier eine Belastung von 320 Franken für Ihre Kreditkarte, die gestern verbucht wurde.",
+          "denormalized": "Ja, ich sehe hier eine Belastung von 320 Franken für Ihre Kreditkarte, die gestern verbucht wurde.",
+          "stype": "female"
+        },
+        {
+          "start": 83.944,
+          "end": 87.882,
+          "cid": "C1",
+          "text": "Sehr gerne. Gibt es sonst noch etwas, bei dem ich Sie unterstützen darf?",
+          "denormalized": "Sehr gerne. Gibt es sonst noch etwas, bei dem ich Sie unterstützen darf?",
+          "stype": "female"
+        },
+        {
+          "start": 91.532,
+          "end": 99.944,
+          "cid": "C1",
+          "text": "Das Thema Verlängerung ist etwas komplexer. Dafür müsste ich Sie an unsere Hypotheken-Spezialistin weiterleiten. Wäre das in Ordnung?",
+          "denormalized": "Das Thema Verlängerung ist etwas komplexer. Dafür müsste ich Sie an unsere Hypotheken-Spezialistin weiterleiten. Wäre das in Ordnung?",
+          "stype": "female"
+        },
+        {
+          "start": 100.469,
+          "end": 105.244,
+          "cid": "C1",
+          "text": "Einen Moment, ich verbinde Sie gleich mit Frau Steiner aus der Hypothekenabteilung.",
+          "denormalized": "Einen Moment, ich verbinde Sie gleich mit Frau Steiner aus der Hypothekenabteilung.",
+          "stype": "female"
+        },
+        {
+          "start": 105.244,
+          "end": 121.306,
+          "cid": "C1",
+          "text": "Bevor ich Sie weiterleite, fasse ich kurz zusammen: Wir haben Ihre nächste Hypothekenrate geprüft, den Restbetrag bestätigt, den Kontostand überprüft und die Kreditkartenbelastung erklärt. Für die Verlängerung spreche ich Sie gleich bei Frau Steiner durch.",
+          "denormalized": "Bevor ich Sie weiterleite, fasse ich kurz zusammen: Wir haben Ihre nächste Hypothekenrate geprüft, den Restbetrag bestätigt, den Kontostand überprüft und die Kreditkartenbelastung erklärt. Für die Verlängerung spreche ich Sie gleich bei Frau Steiner durch.",
+          "stype": "female"
+        },
+        {
+          "start": 123.218,
+          "end": 128.706,
+          "cid": "C1",
+          "text": "Sehr gerne. Ich wünsche Ihnen einen angenehmen Tag und verbinde Sie nun. Auf Wiederhören.",
+          "denormalized": "Sehr gerne. Ich wünsche Ihnen einen angenehmen Tag und verbinde Sie nun. Auf Wiederhören.",
+          "stype": "female"
+        }
+      ]
+    },
+    "generator_path": "llm",
+    "language": "Deutsch",
+    "channel": "text",
+    "date": "2025-09-26",
+    "weekday": "Freitag",
+    "time_of_day_bucket": "Abend",
+    "agent_name": "Monika_Mueller",
+    "agent_shift": "Mittelschicht",
+    "customer_segment": "Premium",
+    "intent": "Hypothek",
+    "scenario": "Kontostand abfragen",
+    "AWT": "123.47",
+    "Transfers_count": "0",
+    "Silence_ratio": "14.43",
+    "Silence_total_seconds": "6.78",
+    "Interruptions_count": "2",
+    "FCR": "Nein",
+    "repeat_call_within_72h": "Nein",
+    "escalation": "Vorgesetzter",
+    "complaint_category": "Technisches Problem",
+    "NPS_score": "6",
+    "sentiment_score": "0.171",
+    "product": "Kredit",
+    "amount_bucket": "100–1000",
+    "self_service_potential": "Hoch",
+    "automation_action_present": "Nein",
+    "automation_action_type": "Keine",
+    "Greeting": "Ja",
+    "Empathy": "Ja",
+    "Summary": "Ja",
+    "Farewell": "Ja",
+    "kb_article_used": "Ja",
+    "language_switch": "Nein",
+    "pii_disclosure_flag": "Nein",
+    "script_adherence": "78.8",
+    "ANI": "+490144036324"
+  },
+  "C2": {
+    "cid": "2",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 6.812,
+          "end": 12.024,
+          "cid": "C2",
+          "text": "Hallo Herr Keller, ich rufe wegen meiner Hypothek an. Ich wollte auch kurz meinen Kontostand prüfen.",
+          "denormalized": "Hallo Herr Keller, ich rufe wegen meiner Hypothek an. Ich wollte auch kurz meinen Kontostand prüfen.",
+          "stype": "male"
+        },
+        {
+          "start": 19.962,
+          "end": 23.5,
+          "cid": "C2",
+          "text": "Ja, ich habe mein Telefonpasswort parat. Es lautet „Alpen…“.",
+          "denormalized": "Ja, ich habe mein Telefonpasswort parat. Es lautet „Alpen…“.",
+          "stype": "male"
+        },
+        {
+          "start": 32.45,
+          "end": 37.738,
+          "cid": "C2",
+          "text": "Fangen wir bitte mit der Hypothek an. Ich möchte wissen, wie hoch die nächste Rate ist.",
+          "denormalized": "Fangen wir bitte mit der Hypothek an. Ich möchte wissen, wie hoch die nächste Rate ist.",
+          "stype": "male"
+        },
+        {
+          "start": 47.876,
+          "end": 52.938,
+          "cid": "C2",
+          "text": "Okay, danke. Und könnte ich auch sehen, wie hoch der noch offene Betrag insgesamt ist?",
+          "denormalized": "Okay, danke. Und könnte ich auch sehen, wie hoch der noch offene Betrag insgesamt ist?",
+          "stype": "male"
+        },
+        {
+          "start": 59.076,
+          "end": 63.551,
+          "cid": "C2",
+          "text": "Hm, alles klar. Und jetzt zum Kontostand – könnten Sie mir den bitte sagen?",
+          "denormalized": "Hm, alles klar. Und jetzt zum Kontostand – könnten Sie mir den bitte sagen?",
+          "stype": "male"
+        },
+        {
+          "start": 68.376,
+          "end": 75.038,
+          "cid": "C2",
+          "text": "Gut zu wissen. Ich hatte etwas mehr erwartet, können Sie prüfen, ob eine Belastung in den letzten Tagen erfolgt ist?",
+          "denormalized": "Gut zu wissen. Ich hatte etwas mehr erwartet, können Sie prüfen, ob eine Belastung in den letzten Tagen erfolgt ist?",
+          "stype": "male"
+        },
+        {
+          "start": 81.132,
+          "end": 83.944,
+          "cid": "C2",
+          "text": "Ah, das erklärt es. Danke für die Klarstellung.",
+          "denormalized": "Ah, das erklärt es. Danke für die Klarstellung.",
+          "stype": "male"
+        },
+        {
+          "start": 87.294,
+          "end": 91.532,
+          "cid": "C2",
+          "text": "Eigentlich wollte ich auch wissen, ob man die Hypothek verlängern kann.",
+          "denormalized": "Eigentlich wollte ich auch wissen, ob man die Hypothek verlängern kann.",
+          "stype": "male"
+        },
+        {
+          "start": 99.944,
+          "end": 100.469,
+          "cid": "C2",
+          "text": "Ja, bitte.",
+          "denormalized": "Ja, bitte.",
+          "stype": "male"
+        },
+        {
+          "start": 121.306,
+          "end": 123.218,
+          "cid": "C2",
+          "text": "Genau, das stimmt so. Vielen Dank.",
+          "denormalized": "Genau, das stimmt so. Vielen Dank.",
+          "stype": "male"
+        },
+        {
+          "start": 128.706,
+          "end": 129.581,
+          "cid": "C2",
+          "text": "Auf Wiederhören.",
+          "denormalized": "Auf Wiederhören.",
+          "stype": "male"
+        }
+      ]
+    }
+  }
+}

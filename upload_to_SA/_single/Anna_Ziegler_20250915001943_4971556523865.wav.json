@@ -1,0 +1,237 @@
+{
+  "C1": {
+    "cid": "1",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 0.0,
+          "end": 2.662,
+          "cid": "C1",
+          "text": "Guten Tag, hier ist die MusterBank. Worum geht es?",
+          "denormalized": "Guten Tag, hier ist die MusterBank. Worum geht es?",
+          "stype": "female"
+        },
+        {
+          "start": 4.774,
+          "end": 8.986,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich. Ich nutze kurz unseren Wissensartikel.",
+          "denormalized": "Ich verstehe, das ist ärgerlich. Ich nutze kurz unseren Wissensartikel.",
+          "stype": "female"
+        },
+        {
+          "start": 9.424,
+          "end": 13.424,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich. Ich nutze kurz unseren Wissensartikel.",
+          "denormalized": "Ich verstehe, das ist ärgerlich. Ich nutze kurz unseren Wissensartikel.",
+          "stype": "female"
+        },
+        {
+          "start": 13.424,
+          "end": 15.212,
+          "cid": "C1",
+          "text": "Ich verbinde Sie intern weiter…",
+          "denormalized": "Ich verbinde Sie intern weiter…",
+          "stype": "female"
+        },
+        {
+          "start": 15.674,
+          "end": 17.324,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich.",
+          "denormalized": "Ich verstehe, das ist ärgerlich.",
+          "stype": "female"
+        },
+        {
+          "start": 18.986,
+          "end": 21.124,
+          "cid": "C1",
+          "text": "Danke für die Info, ich prüfe das sofort.",
+          "denormalized": "Danke für die Info, ich prüfe das sofort.",
+          "stype": "female"
+        },
+        {
+          "start": 22.524,
+          "end": 24.449,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich.",
+          "denormalized": "Ich verstehe, das ist ärgerlich.",
+          "stype": "female"
+        },
+        {
+          "start": 26.011,
+          "end": 30.736,
+          "cid": "C1",
+          "text": "Danke für die Info, ich prüfe das sofort. Ich nutze kurz unseren Wissensartikel.",
+          "denormalized": "Danke für die Info, ich prüfe das sofort. Ich nutze kurz unseren Wissensartikel.",
+          "stype": "female"
+        },
+        {
+          "start": 31.198,
+          "end": 33.01,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich.",
+          "denormalized": "Ich verstehe, das ist ärgerlich.",
+          "stype": "female"
+        },
+        {
+          "start": 33.46,
+          "end": 34.96,
+          "cid": "C1",
+          "text": "Ich verstehe, das ist ärgerlich.",
+          "denormalized": "Ich verstehe, das ist ärgerlich.",
+          "stype": "female"
+        },
+        {
+          "start": 37.185,
+          "end": 39.023,
+          "cid": "C1",
+          "text": "Ich kümmere mich direkt darum.",
+          "denormalized": "Ich kümmere mich direkt darum.",
+          "stype": "female"
+        },
+        {
+          "start": 40.348,
+          "end": 44.81,
+          "cid": "C1",
+          "text": "Zusammenfassung: Anliegen zu Technical Support / Transfer status bearbeitet.",
+          "denormalized": "Zusammenfassung: Anliegen zu Technical Support / Transfer status bearbeitet.",
+          "stype": "female"
+        },
+        {
+          "start": 44.81,
+          "end": 48.498,
+          "cid": "C1",
+          "text": "Vielen Dank für Ihren Anruf bei der MusterBank. Auf Wiederhören.",
+          "denormalized": "Vielen Dank für Ihren Anruf bei der MusterBank. Auf Wiederhören.",
+          "stype": "female"
+        }
+      ]
+    },
+    "generator_path": "synth",
+    "language": "Deutsch",
+    "channel": "voice",
+    "date": "2025-09-15",
+    "weekday": "Montag",
+    "time_of_day_bucket": "Nacht",
+    "agent_name": "Anna_Ziegler",
+    "agent_shift": "Spätschicht",
+    "customer_segment": "Standard",
+    "intent": "Technischer Support",
+    "scenario": "Überweisungsstatus",
+    "AWT": "148.39",
+    "Hold_time": "55.9",
+    "Transfers_count": "1",
+    "Silence_ratio": "6.25",
+    "Silence_total_seconds": "12.2",
+    "Interruptions_count": "0",
+    "FCR": "Ja",
+    "repeat_call_within_72h": "Nein",
+    "escalation": "Keine",
+    "complaint_category": "Wartezeit",
+    "NPS_score": "5",
+    "sentiment_score": "0.04",
+    "product": "E‑Banking",
+    "amount_bucket": "Keine",
+    "self_service_potential": "Mittel",
+    "automation_action_present": "Nein",
+    "automation_action_type": "Keine",
+    "Greeting": "Ja",
+    "Empathy": "Ja",
+    "Summary": "Ja",
+    "Farewell": "Ja",
+    "kb_article_used": "Ja",
+    "language_switch": "Nein",
+    "pii_disclosure_flag": "Nein",
+    "script_adherence": "87.9",
+    "ANI": "+4971556523865"
+  },
+  "C2": {
+    "cid": "2",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 2.662,
+          "end": 4.774,
+          "cid": "C2",
+          "text": "Ich komme nicht weiter, können Sie helfen?",
+          "denormalized": "Ich komme nicht weiter, können Sie helfen?",
+          "stype": "male"
+        },
+        {
+          "start": 8.986,
+          "end": 9.424,
+          "cid": "C2",
+          "text": "Danke.",
+          "denormalized": "Danke.",
+          "stype": "male"
+        },
+        {
+          "start": 15.212,
+          "end": 15.674,
+          "cid": "C2",
+          "text": "Danke.",
+          "denormalized": "Danke.",
+          "stype": "male"
+        },
+        {
+          "start": 17.324,
+          "end": 18.986,
+          "cid": "C2",
+          "text": "Können wir das jetzt lösen?",
+          "denormalized": "Können wir das jetzt lösen?",
+          "stype": "male"
+        },
+        {
+          "start": 21.124,
+          "end": 22.524,
+          "cid": "C2",
+          "text": "Ich brauche das heute noch.",
+          "denormalized": "Ich brauche das heute noch.",
+          "stype": "male"
+        },
+        {
+          "start": 24.449,
+          "end": 26.011,
+          "cid": "C2",
+          "text": "Ich brauche das heute noch.",
+          "denormalized": "Ich brauche das heute noch.",
+          "stype": "male"
+        },
+        {
+          "start": 30.736,
+          "end": 31.198,
+          "cid": "C2",
+          "text": "Danke.",
+          "denormalized": "Danke.",
+          "stype": "male"
+        },
+        {
+          "start": 33.01,
+          "end": 33.46,
+          "cid": "C2",
+          "text": "Verstehe.",
+          "denormalized": "Verstehe.",
+          "stype": "male"
+        },
+        {
+          "start": 34.96,
+          "end": 37.185,
+          "cid": "C2",
+          "text": "Können Sie transfer status erklären?",
+          "denormalized": "Können Sie transfer status erklären?",
+          "stype": "male"
+        },
+        {
+          "start": 39.023,
+          "end": 40.348,
+          "cid": "C2",
+          "text": "Das hilft, bitte weiter.",
+          "denormalized": "Das hilft, bitte weiter.",
+          "stype": "male"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "C1": {
+    "cid": "1",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 0.0,
+          "end": 6.675,
+          "cid": "C1",
+          "text": "Guten Tag, Sie haben die MusterBank in Zürich erreicht, mein Name ist Keller. Wie kann ich Ihnen heute weiterhelfen?",
+          "denormalized": "Guten Tag, Sie haben die MusterBank in Zürich erreicht, mein Name ist Keller. Wie kann ich Ihnen heute weiterhelfen?",
+          "stype": "female"
+        },
+        {
+          "start": 21.425,
+          "end": 32.913,
+          "cid": "C1",
+          "text": "Verstehe, das klingt ärgerlich. Damit ich den Status prüfen kann, brauche ich zuerst eine kurze Authentifizierung. Können Sie mir bitte Ihre Kundenkennung nennen, nicht die Kontonummer?",
+          "denormalized": "Verstehe, das klingt ärgerlich. Damit ich den Status prüfen kann, brauche ich zuerst eine kurze Authentifizierung. Können Sie mir bitte Ihre Kundenkennung nennen, nicht die Kontonummer?",
+          "stype": "female"
+        },
+        {
+          "start": 35.613,
+          "end": 41.013,
+          "cid": "C1",
+          "text": "Danke. Zur Bestätigung: können Sie mir noch das Geburtsdatum im Format Tag-Monat nennen?",
+          "denormalized": "Danke. Zur Bestätigung: können Sie mir noch das Geburtsdatum im Format Tag-Monat nennen?",
+          "stype": "female"
+        },
+        {
+          "start": 41.525,
+          "end": 48.475,
+          "cid": "C1",
+          "text": "Perfekt, danke. Ich prüfe jetzt den Überweisungsstatus. Einen Moment bitte, ich lege Sie kurz in die Warteschleife.",
+          "denormalized": "Perfekt, danke. Ich prüfe jetzt den Überweisungsstatus. Einen Moment bitte, ich lege Sie kurz in die Warteschleife.",
+          "stype": "female"
+        },
+        {
+          "start": 48.475,
+          "end": 60.475,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        },
+        {
+          "start": 60.475,
+          "end": 67.563,
+          "cid": "C1",
+          "text": "Danke für Ihre Geduld. Ich sehe, dass die Überweisung gestern erfasst wurde, aber sie hängt noch in der Verarbeitung.",
+          "denormalized": "Danke für Ihre Geduld. Ich sehe, dass die Überweisung gestern erfasst wurde, aber sie hängt noch in der Verarbeitung.",
+          "stype": "female"
+        },
+        {
+          "start": 72.588,
+          "end": 85.376,
+          "cid": "C1",
+          "text": "Normalerweise schon, ja. Es kann aber vorkommen, dass eine interne Prüfung ausgelöst wird, zum Beispiel bei Beträgen über einer bestimmten Schwelle. Darf ich kurz nachschauen, ob eine solche Prüfung läuft?",
+          "denormalized": "Normalerweise schon, ja. Es kann aber vorkommen, dass eine interne Prüfung ausgelöst wird, zum Beispiel bei Beträgen über einer bestimmten Schwelle. Darf ich kurz nachschauen, ob eine solche Prüfung läuft?",
+          "stype": "female"
+        },
+        {
+          "start": 85.901,
+          "end": 95.901,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        },
+        {
+          "start": 95.901,
+          "end": 103.076,
+          "cid": "C1",
+          "text": "Danke fürs Warten. Ich sehe tatsächlich, dass die Zahlung derzeit von unserer Sicherheitsabteilung manuell geprüft wird.",
+          "denormalized": "Danke fürs Warten. Ich sehe tatsächlich, dass die Zahlung derzeit von unserer Sicherheitsabteilung manuell geprüft wird.",
+          "stype": "female"
+        },
+        {
+          "start": 107.001,
+          "end": 121.713,
+          "cid": "C1",
+          "text": "Sie selbst müssen momentan nichts weiter unternehmen. Allerdings kann ich das Thema jetzt nicht final klären, weil es bei der Fachabteilung liegt. Ich werde den Fall an die Zahlungsabwicklung eskalieren, damit Sie eine Rückmeldung bekommen.",
+          "denormalized": "Sie selbst müssen momentan nichts weiter unternehmen. Allerdings kann ich das Thema jetzt nicht final klären, weil es bei der Fachabteilung liegt. Ich werde den Fall an die Zahlungsabwicklung eskalieren, damit Sie eine Rückmeldung bekommen.",
+          "stype": "female"
+        },
+        {
+          "start": 124.438,
+          "end": 135.576,
+          "cid": "C1",
+          "text": "Die Abteilung meldet sich telefonisch bei Ihnen zurück, in der Regel innerhalb von 24 Stunden. Falls es schneller geht, sehen Sie die Buchung auch direkt in Ihrem Online-Banking.",
+          "denormalized": "Die Abteilung meldet sich telefonisch bei Ihnen zurück, in der Regel innerhalb von 24 Stunden. Falls es schneller geht, sehen Sie die Buchung auch direkt in Ihrem Online-Banking.",
+          "stype": "female"
+        },
+        {
+          "start": 140.626,
+          "end": 149.238,
+          "cid": "C1",
+          "text": "Das kann ich gut nachvollziehen, Herr Müller. Leider habe ich hier keinen direkten Einfluss, aber ich habe die Eskalation bereits eingetragen.",
+          "denormalized": "Das kann ich gut nachvollziehen, Herr Müller. Leider habe ich hier keinen direkten Einfluss, aber ich habe die Eskalation bereits eingetragen.",
+          "stype": "female"
+        },
+        {
+          "start": 151.85,
+          "end": 164.575,
+          "cid": "C1",
+          "text": "Gut, dann fasse ich kurz zusammen: Ihre Überweisung ist erfasst, sie wird aktuell manuell geprüft. Ich habe den Fall an die zuständige Abteilung weitergegeben, und Sie werden innerhalb von 24 Stunden informiert.",
+          "denormalized": "Gut, dann fasse ich kurz zusammen: Ihre Überweisung ist erfasst, sie wird aktuell manuell geprüft. Ich habe den Fall an die zuständige Abteilung weitergegeben, und Sie werden innerhalb von 24 Stunden informiert.",
+          "stype": "female"
+        },
+        {
+          "start": 165.006,
+          "end": 172.644,
+          "cid": "C1",
+          "text": "Vielen Dank für Ihre Geduld und den Anruf bei der MusterBank. Ich wünsche Ihnen trotzdem einen angenehmen Tag. Auf Wiederhören.",
+          "denormalized": "Vielen Dank für Ihre Geduld und den Anruf bei der MusterBank. Ich wünsche Ihnen trotzdem einen angenehmen Tag. Auf Wiederhören.",
+          "stype": "female"
+        },
+        {
+          "start": 173.719,
+          "end": 182.609,
+          "cid": "C1",
+          "text": "hold music",
+          "denormalized": "hold music",
+          "stype": "music"
+        }
+      ]
+    },
+    "generator_path": "llm",
+    "language": "Deutsch",
+    "channel": "voice",
+    "date": "2025-09-22",
+    "weekday": "Montag",
+    "time_of_day_bucket": "Nacht",
+    "agent_name": "Anna_Ziegler",
+    "agent_shift": "Spätschicht",
+    "customer_segment": "Standard",
+    "intent": "Technischer Support",
+    "scenario": "Überweisungsstatus",
+    "AWT": "170.69",
+    "Hold_time": "30.89",
+    "Transfers_count": "0",
+    "Silence_ratio": "8.38",
+    "Silence_total_seconds": "22.43",
+    "Interruptions_count": "1",
+    "FCR": "Ja",
+    "repeat_call_within_72h": "Nein",
+    "escalation": "Keine",
+    "complaint_category": "Wartezeit",
+    "NPS_score": "2",
+    "sentiment_score": "-0.578",
+    "product": "E‑Banking",
+    "amount_bucket": "Keine",
+    "self_service_potential": "Mittel",
+    "automation_action_present": "Nein",
+    "automation_action_type": "Keine",
+    "Greeting": "Ja",
+    "Empathy": "Ja",
+    "Summary": "Nein",
+    "Farewell": "Ja",
+    "kb_article_used": "Ja",
+    "language_switch": "Nein",
+    "pii_disclosure_flag": "Nein",
+    "script_adherence": "86.4",
+    "ANI": "+4971556523865"
+  },
+  "C2": {
+    "cid": "2",
+    "metadata": {
+      "smoothed": [
+        {
+          "start": 6.675,
+          "end": 21.425,
+          "cid": "C2",
+          "text": "Hallo, hier spricht Müller. Ich rufe von der Nummer +4971556523865 an. Ich habe ein Problem mit einer Überweisung, die ich gestern im Online-Banking gemacht habe. Ich möchte wissen, ob die schon durch ist.",
+          "denormalized": "Hallo, hier spricht Müller. Ich rufe von der Nummer +4971556523865 an. Ich habe ein Problem mit einer Überweisung, die ich gestern im Online-Banking gemacht habe. Ich möchte wissen, ob die schon durch ist.",
+          "stype": "male"
+        },
+        {
+          "start": 32.913,
+          "end": 35.613,
+          "cid": "C2",
+          "text": "Ja, klar, die Kennung ist „AB1234“.",
+          "denormalized": "Ja, klar, die Kennung ist „AB1234“.",
+          "stype": "male"
+        },
+        {
+          "start": 41.013,
+          "end": 41.525,
+          "cid": "C2",
+          "text": "17. Mai.",
+          "denormalized": "17. Mai.",
+          "stype": "male"
+        },
+        {
+          "start": 67.563,
+          "end": 72.588,
+          "cid": "C2",
+          "text": "Wie lange dauert das denn normalerweise? Ich dachte, das geht am gleichen Tag raus.",
+          "denormalized": "Wie lange dauert das denn normalerweise? Ich dachte, das geht am gleichen Tag raus.",
+          "stype": "male"
+        },
+        {
+          "start": 85.376,
+          "end": 85.901,
+          "cid": "C2",
+          "text": "Ja, bitte.",
+          "denormalized": "Ja, bitte.",
+          "stype": "male"
+        },
+        {
+          "start": 103.076,
+          "end": 107.001,
+          "cid": "C2",
+          "text": "Aha. Und was heißt das für mich, muss ich jetzt noch irgendwas tun?",
+          "denormalized": "Aha. Und was heißt das für mich, muss ich jetzt noch irgendwas tun?",
+          "stype": "male"
+        },
+        {
+          "start": 121.713,
+          "end": 124.438,
+          "cid": "C2",
+          "text": "Okay, wie erfahre ich dann, wenn es weitergeht?",
+          "denormalized": "Okay, wie erfahre ich dann, wenn es weitergeht?",
+          "stype": "male"
+        },
+        {
+          "start": 135.576,
+          "end": 140.626,
+          "cid": "C2",
+          "text": "Hm, na gut. Ich hätte mir ehrlich gesagt gewünscht, dass das sofort erledigt wird.",
+          "denormalized": "Hm, na gut. Ich hätte mir ehrlich gesagt gewünscht, dass das sofort erledigt wird.",
+          "stype": "male"
+        },
+        {
+          "start": 149.238,
+          "end": 151.85,
+          "cid": "C2",
+          "text": "Alles klar. Dann warte ich auf den Rückruf.",
+          "denormalized": "Alles klar. Dann warte ich auf den Rückruf.",
+          "stype": "male"
+        },
+        {
+          "start": 164.044,
+          "end": 165.006,
+          "cid": "C2",
+          "text": "Okay, verstanden.",
+          "denormalized": "Okay, verstanden.",
+          "stype": "male"
+        },
+        {
+          "start": 172.644,
+          "end": 173.719,
+          "cid": "C2",
+          "text": "Danke, ebenfalls. Tschüss.",
+          "denormalized": "Danke, ebenfalls. Tschüss.",
+          "stype": "male"
+        }
+      ]
+    }
+  }
+}

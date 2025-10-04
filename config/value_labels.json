@@ -1,0 +1,80 @@
+{
+  "de": {
+    "language": {"DE": "Deutsch", "IT": "Italienisch", "FR": "Französisch"},
+    "weekday": {
+      "Mon": "Montag",
+      "Tue": "Dienstag",
+      "Wed": "Mittwoch",
+      "Thu": "Donnerstag",
+      "Fri": "Freitag",
+      "Sat": "Samstag",
+      "Sun": "Sonntag"
+    },
+    "time_of_day_bucket": {
+      "Night": "Nacht",
+      "Morning": "Morgen",
+      "Afternoon": "Nachmittag",
+      "Evening": "Abend"
+    },
+    "agent_shift": {
+      "Early": "Frühschicht",
+      "Mid": "Mittelschicht",
+      "Late": "Spätschicht"
+    },
+    "customer_segment": {"Premium": "Premium", "Standard": "Standard"},
+    "channel": {"voice": "voice", "text": "text"},
+    "intent": {
+      "Online-Banking": "Online-Banking",
+      "Card Block": "Karten-Sperrung",
+      "Payment Issue": "Zahlungsproblem",
+      "Transfer": "Überweisung",
+      "Loan Inquiry": "Kreditanfrage",
+      "Mortgage": "Hypothek",
+      "Technical Support": "Technischer Support",
+      "Fraud Alert": "Betrugsverdacht",
+      "Account Statement": "Kontoauszug",
+      "Card Limit Increase": "Kartenerhöhungslimit"
+    },
+    "scenario": {
+      "Technical difficulties": "Technische Störung",
+      "Balance check": "Kontostand abfragen",
+      "Card lost": "Karte verloren",
+      "Transfer status": "Überweisungsstatus",
+      "Mortgage advisory": "Hypothekenberatung",
+      "Loan options": "Kreditoptionen",
+      "Fee dispute": "Gebühreneinspruch",
+      "Fraud investigation": "Betrugsprüfung",
+      "Statement request": "Auszug anfordern"
+    },
+    "product": {
+      "eBanking": "E‑Banking",
+      "Card": "Karte",
+      "Transfer": "Überweisung",
+      "Loan": "Kredit",
+      "Mortgage": "Hypothek"
+    },
+    "amount_bucket": {
+      "None": "Keine",
+      "<100": "<100",
+      "100–1000": "100–1000",
+      "1000–5000": "1000–5000",
+      ">5000": ">5000"
+    },
+    "complaint_category": {"Fees": "Gebühren", "TechnicalIssue": "Technisches Problem", "WaitTime": "Wartezeit"},
+    "self_service_potential": {"Low": "Niedrig", "Medium": "Mittel", "High": "Hoch"},
+    "automation_action_present": {"true": "Ja", "false": "Nein"},
+    "automation_action_type": {"None": "Keine", "reset password": "Passwort zurücksetzen", "check balance": "Kontostand prüfen", "transfer status": "Überweisungsstatus"},
+    "escalation": {"None": "Keine", "IT Ticket": "IT-Ticket", "Backoffice": "Backoffice", "Supervisor": "Vorgesetzter"},
+    "Greeting": {"pass": "Ja", "fail": "Nein"},
+    "Empathy": {"pass": "Ja", "fail": "Nein"},
+    "Summary": {"pass": "Ja", "fail": "Nein"},
+    "Farewell": {"pass": "Ja", "fail": "Nein"},
+    "FCR": {"true": "Ja", "false": "Nein"},
+    "repeat_call_within_72h": {"true": "Ja", "false": "Nein"},
+    "kb_article_used": {"true": "Ja", "false": "Nein"},
+    "language_switch": {"true": "Ja", "false": "Nein"},
+    "pii_disclosure_flag": {"true": "Ja", "false": "Nein"}
+  }
+}
+
+

@@ -1,0 +1,258 @@
+# Base configuration for synthetic call dataset generation
+
+meta:
+  schema_version: 1
+  volume_reduction_factor: 0.2  # 5x fewer calls
+
+calendar:
+  weekday_factors:
+    Mon: 1.05
+    Tue: 1.00
+    Wed: 1.00
+    Thu: 1.05
+    Fri: 0.95
+    Sat: 0.75
+    Sun: 0.70
+  incidents:
+    outages_count: 3            # number of weekday outages in the period
+    app_issue_after_outage_days: 2
+    premium_wait_peak_days: [Mon, Thu]
+
+volume:
+  base_weekday: 300
+  base_weekend: 180
+  incident_boost_min: 0.25
+  incident_boost_max: 0.40
+
+agents:
+  teams: ["Team A", "Team B", "Team C"]
+  members:
+    Monika_Mueller:
+      team: "Team A"
+      shifts: { Early: 0.45, Mid: 0.35, Late: 0.20 }
+    Lukas_Schmidt:
+      team: "Team A"
+      shifts: { Early: 0.40, Mid: 0.40, Late: 0.20 }
+    Anna_Ziegler:
+      team: "Team A"
+      shifts: { Early: 0.35, Mid: 0.40, Late: 0.25 }
+    Peter_Keller:
+      team: "Team A"
+      shifts: { Early: 0.30, Mid: 0.45, Late: 0.25 }
+
+    Jasmin_Caggiano:
+      team: "Team B"
+      shifts: { Early: 0.30, Mid: 0.45, Late: 0.25 }
+    Heidi_Vogt:
+      team: "Team B"
+      shifts: { Early: 0.25, Mid: 0.40, Late: 0.35 }
+    Marco_Fischer:
+      team: "Team B"
+      shifts: { Early: 0.25, Mid: 0.45, Late: 0.30 }
+    Laura_Brunner:
+      team: "Team B"
+      shifts: { Early: 0.30, Mid: 0.40, Late: 0.30 }
+
+    Karin_Herzog:
+      team: "Team C"
+      shifts: { Early: 0.35, Mid: 0.30, Late: 0.35 }
+    Sven_Meier:
+      team: "Team C"
+      shifts: { Early: 0.35, Mid: 0.35, Late: 0.30 }
+    Nina_Weber:
+      team: "Team C"
+      shifts: { Early: 0.30, Mid: 0.35, Late: 0.35 }
+    Paul_Huber:
+      team: "Team C"
+      shifts: { Early: 0.30, Mid: 0.35, Late: 0.35 }
+  allocation:
+    weekday:
+      Monika_Mueller: 0.12
+      Lukas_Schmidt: 0.08
+      Anna_Ziegler: 0.08
+      Peter_Keller: 0.07
+      Jasmin_Caggiano: 0.13
+      Heidi_Vogt: 0.11
+      Marco_Fischer: 0.11
+      Laura_Brunner: 0.10
+      Karin_Herzog: 0.07
+      Sven_Meier: 0.05
+      Nina_Weber: 0.04
+      Paul_Huber: 0.04
+    weekend:
+      Monika_Mueller: 0.09
+      Lukas_Schmidt: 0.06
+      Anna_Ziegler: 0.05
+      Peter_Keller: 0.05
+      Jasmin_Caggiano: 0.16
+      Heidi_Vogt: 0.14
+      Marco_Fischer: 0.13
+      Laura_Brunner: 0.12
+      Karin_Herzog: 0.08
+      Sven_Meier: 0.04
+      Nina_Weber: 0.04
+      Paul_Huber: 0.04
+
+buckets:
+  weekday: { Night: 0.10, Morning: 0.30, Afternoon: 0.35, Evening: 0.25 }
+  weekend: { Night: 0.08, Morning: 0.32, Afternoon: 0.35, Evening: 0.25 }
+
+segments:
+  customer: { Premium: 0.25, Standard: 0.75 }
+
+channels:
+  base: { voice: 0.9, text: 0.1 }
+  time_of_day_adjustment:
+    Night: { voice: +0.05, text: -0.05 }
+    Morning: { voice: 0.0 }
+    Afternoon: { voice: -0.03, text: +0.03 }
+    Evening: { voice: +0.00 }
+
+geo:
+  region: { ZH: 1.0 }
+  language: { EN: 1.0 }
+  premium_language_bias: { EN: 1.0 }
+
+devices:
+  base: { iOS: 0.40, Android: 0.40, Desktop: 0.20 }
+  channel_overrides:
+    voice: { iOS: +0.05, Android: +0.05, Desktop: -0.10 }
+    text: { Desktop: +0.15, iOS: -0.05, Android: -0.10 }
+
+intents:
+  base:
+    Online-Banking: 0.25
+    Card Block: 0.10
+    Payment Issue: 0.15
+    Transfer: 0.15
+    Loan Inquiry: 0.10
+    Mortgage: 0.08
+    Technical Support: 0.17
+    Fraud Alert: 0.07
+    Account Statement: 0.06
+    Card Limit Increase: 0.07
+  time_of_day:
+    Night: { Online-Banking: +0.05, Technical Support: +0.05, Transfer: -0.05 }
+    Morning: { Transfer: +0.05 }
+    Afternoon: { Payment Issue: +0.05 }
+    Evening: { Online-Banking: +0.02 }
+  agent:
+    Monika_Mueller: { Online-Banking: +0.03 }
+    Jasmin_Caggiano: { Payment Issue: +0.03 }
+    Heidi_Vogt: { Technical Support: +0.03 }
+    Karin_Herzog: { Transfer: +0.03 }
+  segment:
+    Premium: { Mortgage: +0.04, Loan Inquiry: +0.03 }
+  incident:
+    outage: { Online-Banking: +0.10, Technical Support: +0.08 }
+    app_issue: { Online-Banking: +0.08, Technical Support: +0.06 }
+
+scenarios:
+  base:
+    "Technical difficulties": 0.20
+    "Balance check": 0.15
+    "Card lost": 0.10
+    "Transfer status": 0.20
+    "Mortgage advisory": 0.10
+    "Loan options": 0.10
+    "Fee dispute": 0.15
+    "Fraud investigation": 0.10
+    "Statement request": 0.10
+  agent:
+    Monika_Mueller: { "Balance check": +0.03 }
+  intent:
+    Online-Banking: { "Technical difficulties": +0.15 }
+    Transfer: { "Transfer status": +0.15 }
+    Mortgage: { "Mortgage advisory": +0.15 }
+    Fraud Alert: { "Fraud investigation": +0.15 }
+    Account Statement: { "Statement request": +0.15 }
+    Card Limit Increase: { "Loan options": +0.10 }
+  incident:
+    outage: { "Technical difficulties": +0.10 }
+
+ops:
+  awt_seconds:
+    base_median: 90
+    base_sigma: 25
+    outage_delta: +35
+    channel_deltas: { voice: +10, text: -5 }
+    premium_wait_peak_delta: +20
+    team_deltas: { "Team B": +10 }
+  hold_seconds:
+    base_median: 45
+    base_sigma: 20
+    channel_deltas: { voice: 0, text: +12 }
+  transfers_count:
+    base_probs: { 0: 0.70, 1: 0.20, 2: 0.08, 3: 0.02 }
+    channel_overrides:
+      text: { 0: 0.80, 1: 0.15, 2: 0.04, 3: 0.01 }
+  silence_ratio:
+    mean: 9.0
+    sigma: 4.0
+    channel_deltas: { voice: 0.0, text: +8.0 }
+  interruptions_count:
+    mean: 1.2
+    sigma: 0.8
+    channel_deltas: { voice: 0.0, text: -0.7 }
+  fcr_base_prob: 0.78
+  fcr_penalties:
+    outage: -0.15
+    channel: { voice: 0.0, text: +0.03 }
+    team: { "Team B": -0.07 }
+  silence_total_seconds:
+    base_mean: 8.0
+    base_sigma: 4.0
+    team_deltas: { "Team B": +2.0 }
+    channel_lifts: { voice: 0.0, text: +8.0 }
+    agent_deltas:
+      Monika_Mueller: -2.0
+      Lukas_Schmidt: -1.0
+      Anna_Ziegler: 0.0
+      Peter_Keller: +1.0
+      Jasmin_Caggiano: +1.5
+      Heidi_Vogt: +2.0
+      Marco_Fischer: +1.0
+      Laura_Brunner: +0.5
+      Karin_Herzog: 0.0
+      Sven_Meier: +0.5
+      Nina_Weber: +1.0
+      Paul_Huber: 0.0
+    scenario_lifts:
+      "Technical difficulties": +6.0
+      "Transfer status": +3.0
+      "Fee dispute": +2.0
+    nps:
+      low_threshold: 7
+      per_point_below: 1.5
+
+nps:
+  base_weights: { 6: 0.15, 7: 0.20, 8: 0.25, 9: 0.25, 10: 0.15 }
+  corrections:
+    awt_gt_120: -2
+    fcr_zero: -1
+    premium_waittime: -2
+    happy_cap: 10
+
+products:
+  base: { eBanking: 0.35, Card: 0.15, Transfer: 0.20, Loan: 0.15, Mortgage: 0.15 }
+  outage_adjustment: { eBanking: +0.10 }
+  hour_lt_18_adjustment: { Mortgage: +0.10 }
+  amount_buckets: { "<100": 0.30, "100–1000": 0.40, "1000–5000": 0.20, ">5000": 0.10 }
+
+automation:
+  self_service_potential: { Low: 0.25, Medium: 0.45, High: 0.30 }
+  action_present_base: 0.15
+  action_type: { "reset password": 0.40, "check balance": 0.35, "transfer status": 0.25 }
+  intent_lifts: { "Online-Banking": +0.05, "Transfer": +0.05 }
+  outage_penalty: -0.07
+  inapp_bonus: +0.05
+
+compliance:
+  pass_rates: { Greeting: 0.92, Empathy: 0.80, Summary: 0.90, Farewell: 0.95 }
+  global_delta: -0.03
+  channel_deltas: { voice: 0.0, text: -0.05 }
+  team_deltas: { "Team B": -0.05 }
+  outage_empathy_penalty: -0.08
+  monika_pass_bonus: +0.05
+  script_adherence_mean: 86.0
+  script_adherence_sigma: 6.0

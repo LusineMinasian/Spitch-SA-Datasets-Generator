@@ -1,0 +1,3 @@
+# Project-specific overrides (can be empty)
+meta:
+  volume_reduction_factor: 0.2
