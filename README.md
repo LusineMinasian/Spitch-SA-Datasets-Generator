@@ -162,8 +162,3 @@ python generator/generate_conversations.py --in out --out out_conversations --mo
 python audio_and_json_generator/generate_audio_and_json.py --in_dir out_conversations --out_dir audio_and_json_generator/results --hold audio_and_json_generator/hold.wav
 python upload_to_SA/upload_from_results.py --dir audio_and_json_generator/results --dry-run
 ```
-
-
-=======
-# Spitch-SA-Datasets-Generator
->>>>>>> origin/main
