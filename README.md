@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## SA datasets Generator — Complete Guide
 
 [Русская версия](README.ru.md) | [Deutsche Version](README.de.md)
@@ -163,3 +164,6 @@ python upload_to_SA/upload_from_results.py --dir audio_and_json_generator/result
 ```
 
 
+=======
+# Spitch-SA-Datasets-Generator
+>>>>>>> origin/main
